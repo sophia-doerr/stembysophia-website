@@ -977,3 +977,17 @@ h3 {
   display: none;
 }
 
+.booking-actions {
+  justify-content: flex-start;
+}
+
+/* Helps if Square injects a button/link that does not match my layout */
+.booking-actions iframe,
+.booking-actions > div {
+  max-width: 100%;
+}
+
+.booking-actions a,
+.booking-actions button {
+  font-family: "Inter", system-ui, sans-serif;
+}
