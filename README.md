@@ -25,7 +25,7 @@ Tagline: *Confidence. Clarity. Advancement.*
 - `favicon-32.png`, `favicon-180.png` — browser/app icons
 
 ## SEO features built in
-- Unique title, meta description, and canonical URL on every page
+- Keyword-targeted title, meta description, and canonical URL on every page
 - Open Graph tags for social sharing
 - JSON-LD structured data (EducationalOrganization, Service, FAQPage)
 - One `<h1>` per page with a clean heading hierarchy
@@ -49,3 +49,10 @@ Tagline: *Confidence. Clarity. Advancement.*
 - Booking uses the existing Square Appointments widget on the homepage contact section;
   all service-page CTAs link to that section (`index.html#contact`).
 - Contact email standardized to `hello@stembysophia.com` (see chat notes).
+
+
+## SEO update notes added in this version
+- Tightened exact search targeting for Madison + online service phrases.
+- Updated titles, meta descriptions, meta keywords, and Open Graph titles/descriptions on uploaded pages.
+- Added service-page links to relevant blog posts and homepage links to all three guides.
+- Added `blog-internal-link-snippets.html` with copy/paste sections for blog posts that were listed in the sitemap but not included in the upload.
