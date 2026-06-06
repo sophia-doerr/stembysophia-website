@@ -3,35 +3,67 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="STEM by Sophia offers personalized STEM tutoring and mentorship in Madison and online from an MD/PhD student and biomedical AI researcher." />
-  <meta name="keywords" content="STEM tutoring Madison, AP Biology tutor, AP Calculus tutor, IB tutor, MCAT tutor, Python tutor, AI tutoring, PyTorch tutor, data science tutor, STEM mentorship" />
+  <meta name="description" content="STEM by Sophia offers personalized MCAT prep, ACT/SAT test prep, STEM tutoring, and academic coaching in Madison and online from a 99th-percentile MCAT scorer, MD/PhD student, and biomedical AI researcher." />
+  <meta name="keywords" content="STEM tutoring Madison, MCAT tutor, ACT SAT prep, AP Biology tutor, calculus tutor, Python tutor, academic coaching, neurodivergent coaching, MD PhD tutor" />
   <meta name="author" content="Sophia Doerr" />
-  <meta property="og:title" content="STEM by Sophia | Personalized STEM Tutoring & Mentorship" />
-  <meta property="og:description" content="Warm, high-level STEM mentorship from an MD/PhD student, Johns Hopkins-trained engineer, and biomedical AI researcher." />
+  <link rel="canonical" href="https://www.stembysophia.com/" />
+  <meta property="og:title" content="STEM by Sophia | Tutoring, MCAT Prep & Academic Coaching" />
+  <meta property="og:description" content="Confidence. Clarity. Advancement. Warm, high-level STEM mentorship from an MD/PhD student, Johns Hopkins-trained engineer, and biomedical AI researcher." />
   <meta property="og:type" content="website" />
-  <meta property="og:image" content="images/sophia-sign.jpg" />
-  <title>STEM by Sophia | Personalized STEM Tutoring & Mentorship</title>
+  <meta property="og:url" content="https://www.stembysophia.com/" />
+  <meta property="og:image" content="https://www.stembysophia.com/images/sophia-whitecoat.jpg" />
+  <title>STEM by Sophia | Tutoring, MCAT Prep &amp; Academic Coaching</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Alex+Brush&family=Allura&family=Inter:wght@400;500;600;700;800;900&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">  
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Playfair+Display:wght@600;700&family=Sacramento&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32.png" />
+  <link rel="apple-touch-icon" href="images/favicon-180.png" />
   <link rel="stylesheet" href="style.css" />
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "EducationalOrganization",
+    "name": "STEM by Sophia",
+    "url": "https://www.stembysophia.com/",
+    "logo": "https://www.stembysophia.com/images/logo.png",
+    "image": "https://www.stembysophia.com/images/sophia-whitecoat.jpg",
+    "description": "Personalized MCAT prep, ACT/SAT test prep, STEM tutoring, and academic coaching in Madison and online.",
+    "slogan": "Confidence. Clarity. Advancement.",
+    "email": "hello@stembysophia.com",
+    "areaServed": [
+      { "@type": "City", "name": "Madison, Wisconsin" },
+      { "@type": "Country", "name": "United States" }
+    ],
+    "founder": {
+      "@type": "Person",
+      "name": "Sophia Doerr",
+      "jobTitle": "MD/PhD Student & STEM Mentor",
+      "alumniOf": "Johns Hopkins University"
+    }
+  }
+  </script>
 </head>
 <body>
   <header class="site-header" id="top">
     <nav class="nav container" aria-label="Primary navigation">
-      <a class="brand" href="#top" aria-label="STEM by Sophia home">
-        <span class="brand-mark">S</span>
-        <span class="brand-text">
-          <span class="brand-stem">STEM </span>
-          <span class="brand-by">  by Sophia</span>
-        </span>
+      <a class="brand" href="index.html" aria-label="STEM by Sophia home">
+        <img loading="eager" decoding="async" src="images/logo-lockup.png" alt="STEM by Sophia" class="brand-logo" width="525" height="148" />
       </a>
-      <div class="nav-links">
-        <a href="#mentorship">Services</a>
-        <a href="#approach">Approach</a>
-        <a href="#about">About</a>
+      <button class="nav-toggle" aria-label="Toggle navigation menu" aria-expanded="false" aria-controls="navLinks">
+        <span></span>
+      </button>
+      <div class="nav-links" id="navLinks">
+        <div class="has-dropdown">
+          <a href="#" class="dropdown-trigger" aria-haspopup="true" aria-expanded="false">Services <span class="caret">&#9662;</span></a>
+          <div class="dropdown">
+            <a href="mcat.html">MCAT Prep<span>6&ndash;30 session packages</span></a>
+            <a href="test-prep.html">ACT &amp; SAT Prep<span>Targeted test strategy</span></a>
+            <a href="tutoring.html">STEM Tutoring<span>Math &amp; science, HS&ndash;grad</span></a>
+            <a href="academic-coaching.html">Academic Coaching<span>Especially ND students</span></a>
+          </div>
+        </div>
+        <a href="about.html">About</a>
+        <a href="blog.html">Blog</a>
         <a href="#contact" class="nav-cta">Book consult</a>
       </div>
     </nav>
@@ -40,32 +72,33 @@
   <main>
     <section class="hero section-padding">
       <div class="hero-background" aria-hidden="true">
-        <img src="images/hero-mountain-lake.png" alt="" />
+        <img loading="eager" decoding="async" src="images/hero-mountain-lake.jpg" alt="" />
       </div>
       <div class="container hero-grid">
-        <div class="hero-copy">
-          <p class="eyebrow">Madison & online • STEM tutoring and mentorship</p>
+        <div class="hero-copy reveal">
+          <p class="eyebrow">Madison &amp; online &bull; STEM tutoring and mentorship</p>
           <h1>Personalized STEM mentorship that builds real understanding.</h1>
           <p class="hero-lede">
             STEM by Sophia offers warm, high-level academic support from an MD/PhD student, Johns Hopkins-trained engineer, and biomedical AI researcher.
           </p>
+          <p class="brand-tagline">Confidence. Clarity. Advancement.</p>
           <div class="hero-actions">
             <a class="button button-primary" href="#contact">Book a free consultation</a>
-            <a class="button button-secondary" href="#mentorship">Explore subjects</a>
+            <a class="button button-secondary" href="#mentorship">Explore services</a>
           </div>
           <div class="credential-strip" aria-label="Key credentials">
+            <span>99th percentile MCAT</span>
             <span>MD/PhD student</span>
             <span>Johns Hopkins engineering</span>
-            <span>Biomedical AI research</span>
           </div>
         </div>
 
-        <div class="hero-visual" aria-label="Sophia Doerr professional portrait with STEM and nature-inspired imagery">
-          <div class="portrait-card main-portrait">
-            <img src="images/sophia-whitecoat.png" alt="Sophia Doerr in a white coat" class="portrait" />
+        <div class="hero-visual" aria-label="Sophia Doerr professional portrait">
+          <div class="portrait-card main-portrait reveal" data-delay="2">
+            <img loading="eager" decoding="async" src="images/sophia-whitecoat.jpg" alt="Sophia Doerr in a white coat" class="portrait" />
             <div class="portrait-caption">
               <strong>Sophia Doerr</strong>
-              <span>Physician-scientist in training • STEM mentor</span>
+              <span>Physician-scientist in training &bull; STEM mentor</span>
             </div>
           </div>
         </div>
@@ -74,15 +107,15 @@
 
     <section class="trust-bar">
       <div class="container trust-grid">
-        <div>
+        <div class="reveal">
           <span class="trust-number">1:1</span>
-          <p>Individualized instruction built around each student’s goals, pace, and learning style.</p>
+          <p>Individualized instruction built around each student&rsquo;s goals, pace, and learning style.</p>
         </div>
-        <div>
-          <span class="trust-number">AP • IB • MCAT • ACT/SAT </span>
+        <div class="reveal" data-delay="1">
+          <span class="trust-number">AP &bull; IB &bull; MCAT &bull; ACT/SAT</span>
           <p>Support for ambitious coursework, test preparation, and advanced STEM pathways.</p>
         </div>
-        <div>
+        <div class="reveal" data-delay="2">
           <span class="trust-number">STEM + AI</span>
           <p>Mentorship that connects math, biology, coding, data science, medicine, and research.</p>
         </div>
@@ -91,80 +124,74 @@
 
     <section class="section-padding" id="mentorship">
       <div class="container">
-        <div class="section-heading centered">
+        <div class="section-heading centered reveal">
           <p class="eyebrow">Areas of mentorship</p>
-          <h2>Advanced support across STEM, from foundations to frontiers.</h2>
+          <h2>Four ways to work together.</h2>
           <p>
-            Sessions are designed for students who need clarity, confidence, challenge, structure, or a mentor who can connect classroom material to real scientific and medical applications.
+            Personalized one-on-one support across test prep, tutoring, and coaching, in Madison and online. Choose a path to see packages and details.
           </p>
         </div>
 
-        <div class="card-grid services-grid">
-          <article class="service-card">
+        <div class="card-grid services-grid offerings-grid">
+          <a class="service-card accent-card card-link reveal" href="mcat.html">
             <span class="card-icon">01</span>
-            <h3>AP & IB STEM</h3>
-            <p>Biology, math, statistics, chemistry-adjacent support, exam strategy, and conceptual review for rigorous high school coursework.</p>
-          </article>
-          <article class="service-card">
+            <h3>MCAT Prep</h3>
+            <p>Five packages from a 99th-percentile scorer, 6 to 30 sessions of personalized content review and test strategy.</p>
+            <span class="card-more">Explore MCAT prep &rarr;</span>
+          </a>
+          <a class="service-card card-link reveal" data-delay="1" href="test-prep.html">
             <span class="card-icon">02</span>
-            <h3>Math through Calculus & Statistics</h3>
-            <p>Algebra, precalculus, calculus, probability, statistics, data interpretation, and problem-solving habits that transfer across courses.</p>
-          </article>
-          <article class="service-card">
+            <h3>ACT &amp; SAT Prep</h3>
+            <p>Targeted test strategy, timing, and section skills that turn practice into real score gains.</p>
+            <span class="card-more">Explore test prep &rarr;</span>
+          </a>
+          <a class="service-card card-link reveal" data-delay="2" href="tutoring.html">
             <span class="card-icon">03</span>
-            <h3>Biology, Medicine & MCAT</h3>
-            <p>Biology, physiology, systems thinking, premed preparation, MCAT science review, and mentorship for students interested in medicine or research.</p>
-          </article>
-          <article class="service-card">
+            <h3>STEM Tutoring</h3>
+            <p>Math, science, coding, and data science for high school, college, and graduate students.</p>
+            <span class="card-more">Explore tutoring &rarr;</span>
+          </a>
+          <a class="service-card card-link reveal" data-delay="3" href="academic-coaching.html">
             <span class="card-icon">04</span>
-            <h3>Python, AI & Data Science</h3>
-            <p>Python programming, data analysis, machine learning, PyTorch, research workflows, and practical computational thinking.</p>
-          </article>
-          <article class="service-card">
-            <span class="card-icon">05</span>
-            <h3>Research & Academic Skills</h3>
-            <p>Scientific reasoning, literature interpretation, project planning, coding for research, study systems, and communication skills.</p>
-          </article>
-          <article class="service-card accent-card">
-            <span class="card-icon">06</span>
-            <h3>Confidence-centered mentoring</h3>
-            <p>Supportive guidance for anxious, overwhelmed, neurodivergent, perfectionistic, or high-achieving students who need both rigor and emotional safety.</p>
-          </article>
+            <h3>Academic Coaching</h3>
+            <p>Executive function, study systems, and accountability, with affirming support for neurodivergent students.</p>
+            <span class="card-more">Explore coaching &rarr;</span>
+          </a>
         </div>
       </div>
     </section>
 
     <section class="visual-story-section">
       <div class="container visual-story-grid">
-        <div class="visual-story-copy">
+        <div class="visual-story-copy reveal">
           <p class="eyebrow">A calm, rigorous learning environment</p>
           <h2>Designed to make hard subjects feel organized and approachable.</h2>
           <p>
             Students often struggle not because they are incapable, but because the material has been presented as disconnected facts or procedures. I help students build a map: what matters, how ideas connect, and how to reason through unfamiliar problems.
           </p>
         </div>
-        <div class="study-image-card">
-          <img src="images/stem-desk.png" alt="A calm STEM study desk with notebook, microscope, laptop, and graphs" />
+        <div class="study-image-card reveal" data-delay="1">
+          <img loading="lazy" decoding="async" src="images/stem-desk.jpg" alt="A calm STEM study desk with notebook, microscope, laptop, and graphs" />
         </div>
       </div>
     </section>
 
     <section class="image-band" aria-label="Nature and curiosity imagery">
-      <img src="images/nature-morro-rock.jpg" alt="Morro Rock and calm coastline" />
-      <img src="images/nature-rainier-aerial.jpg" alt="Aerial view of Mount Rainier" />
-      <img src="images/nature-waterfall.jpg" alt="Waterfall surrounded by greenery" />
+      <img loading="lazy" decoding="async" src="images/nature-morro-rock.jpg" alt="Morro Rock and calm coastline" />
+      <img loading="lazy" decoding="async" src="images/nature-rainier-aerial.jpg" alt="Aerial view of Mount Rainier" />
+      <img loading="lazy" decoding="async" src="images/nature-waterfall.jpg" alt="Waterfall surrounded by greenery" />
     </section>
 
     <section class="section-padding approach-section" id="approach">
       <div class="container split-grid">
-        <div class="media-panel">
-          <img src="images/stem-desk.png" alt="STEM workspace with microscope, notebook, coding, and data visualization" />
+        <div class="media-panel reveal">
+          <img loading="lazy" decoding="async" src="images/stem-desk.jpg" alt="STEM workspace with microscope, notebook, coding, and data visualization" />
           <div class="quote-card">
-            <p>“Students learn best when the material finally feels organized, understandable, and less intimidating.”</p>
+            <p>&ldquo;Students learn best when the material finally feels organized, understandable, and less intimidating.&rdquo;</p>
           </div>
         </div>
 
-        <div class="section-heading">
+        <div class="section-heading reveal" data-delay="1">
           <p class="eyebrow">Teaching philosophy</p>
           <h2>Deep understanding first. Scores and confidence follow.</h2>
           <p>
@@ -177,7 +204,7 @@
             </div>
             <div class="feature-item">
               <h3>Personalized structure</h3>
-              <p>Each session adapts to the student’s course, teacher, exam timeline, and confidence level.</p>
+              <p>Each session adapts to the student&rsquo;s course, teacher, exam timeline, and confidence level.</p>
             </div>
             <div class="feature-item">
               <h3>Mentorship beyond homework</h3>
@@ -190,11 +217,11 @@
 
     <section class="section-padding about-section" id="about">
       <div class="container about-grid">
-        <div class="about-copy">
+        <div class="about-copy reveal">
           <p class="eyebrow">About Sophia</p>
           <h2>A STEM mentor with scientific depth and a human-centered teaching style.</h2>
           <p>
-            I’m Sophia, an MD/PhD student at the University of Wisconsin–Madison with a background in biomedical engineering, applied mathematics, medical imaging, and artificial intelligence research. I trained at Johns Hopkins and now mentor students across math, biology, coding, data science, medicine, and research-oriented STEM pathways.
+            I&rsquo;m Sophia, an MD/PhD candidate and biomedical AI researcher with a background in biomedical engineering, applied mathematics, and data science. I trained at Johns Hopkins and now mentor students across math, biology, coding, data science, medicine, and research-oriented STEM pathways.
           </p>
           <p>
             My goal is to help students feel capable in difficult subjects. I combine rigorous scientific thinking with patience, warmth, and individualized explanations so students can build skills that last beyond one exam.
@@ -206,8 +233,8 @@
             <span>STEM education</span>
           </div>
         </div>
-        <div class="about-card">
-          <img src="images/sophia-sign.jpg" alt="Sophia holding a STEM by Sophia sign" />
+        <div class="about-card reveal" data-delay="1">
+          <img loading="lazy" decoding="async" src="images/sophia-sign.jpg" alt="Sophia holding a STEM by Sophia sign" />
           <div class="about-card-content">
             <h3>Best fit students</h3>
             <ul>
@@ -223,20 +250,24 @@
 
     <section class="section-padding testimonials-section">
       <div class="container">
-        <div class="section-heading centered">
+        <div class="section-heading centered reveal">
           <p class="eyebrow">What families can expect</p>
           <h2>Premium tutoring that feels organized, thoughtful, and personal.</h2>
         </div>
+        <figure class="testimonial reveal">
+          <blockquote>&ldquo;Through Sophia&rsquo;s valuable insight and creative teaching, I was able to actually enjoy tutoring and maximize my opportunities of getting the scores I wanted. Most importantly, she taught me how to believe in myself.&rdquo;</blockquote>
+          <figcaption>High school student</figcaption>
+        </figure>
         <div class="expectation-grid">
-          <div class="expectation-card">
+          <div class="expectation-card reveal">
             <h3>Before sessions</h3>
             <p>Goals are clarified so sessions are focused, efficient, and responsive to class expectations or exam timelines.</p>
           </div>
-          <div class="expectation-card">
+          <div class="expectation-card reveal" data-delay="1">
             <h3>During sessions</h3>
             <p>Students practice active reasoning, targeted problem-solving, and explaining ideas in their own words.</p>
           </div>
-          <div class="expectation-card">
+          <div class="expectation-card reveal" data-delay="2">
             <h3>After sessions</h3>
             <p>Students leave with clearer next steps, stronger study strategy, and a better sense of control over hard material.</p>
           </div>
@@ -245,7 +276,7 @@
     </section>
 
     <section class="cta-section" id="contact">
-      <div class="container cta-card">
+      <div class="container cta-card reveal">
         <div>
           <p class="eyebrow">Now accepting a small number of students</p>
           <h2>Interested in working together?</h2>
@@ -254,7 +285,7 @@
           </p>
         </div>
 
-        <div class="cta-actions">
+        <div class="cta-actions booking-actions">
         <!-- Start Square Appointments Embed Code -->
       <script src="https://square.site/appointments/buyer/widget/3b6ggubn26pd8r/LTJK2GXPA65BX.js"></script>
       <!-- End Square Appointments Embed Code -->
@@ -268,19 +299,21 @@
   <footer class="site-footer">
     <div class="container footer-grid">
       <div>
-        <a class="brand footer-brand" href="#top">
-          <span class="brand-mark">S</span>
-          <span class="brand-text">STEM by Sophia</span>
+        <a class="brand footer-brand" href="index.html" aria-label="STEM by Sophia home">
+          <span class="footer-logo-chip"><img loading="lazy" decoding="async" src="images/logo-lockup.png" alt="STEM by Sophia" /></span>
         </a>
         <p>Personalized STEM tutoring and mentorship in Madison and online.</p>
       </div>
       <div class="footer-links">
-        <a href="#mentorship">Services</a>
-        <a href="#approach">Approach</a>
+        <a href="mcat.html">MCAT Prep</a>
+        <a href="test-prep.html">ACT/SAT Prep</a>
+        <a href="tutoring.html">STEM Tutoring</a>
+        <a href="academic-coaching.html">Academic Coaching</a>
         <a href="#about">About</a>
-        <a href="mailto:sophia@doerr.us">Contact</a>
+        <a href="mailto:hello@stembysophia.com">Contact</a>
       </div>
     </div>
   </footer>
+  <script src="main.js"></script>
 </body>
 </html>

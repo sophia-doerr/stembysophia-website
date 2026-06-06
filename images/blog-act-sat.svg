@@ -1,0 +1,47 @@
+<svg viewBox="0 0 1200 630" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="ACT versus SAT comparison illustration">
+  <defs>
+    <linearGradient id="bg3" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f7f3ee"/>
+      <stop offset="1" stop-color="#e7eee6"/>
+    </linearGradient>
+    <linearGradient id="teal3" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#1f5d63"/>
+      <stop offset="1" stop-color="#153f44"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg3)"/>
+  <g opacity="0.10" stroke="#1f5d63" stroke-width="3" fill="none">
+    <circle cx="600" cy="70" r="7" fill="#1f5d63"/><circle cx="540" cy="120" r="7" fill="#1f5d63"/><circle cx="660" cy="120" r="7" fill="#1f5d63"/>
+    <line x1="600" y1="70" x2="540" y2="120"/><line x1="600" y1="70" x2="660" y2="120"/>
+  </g>
+  <!-- left answer sheet (tilted) -->
+  <g transform="translate(300,330) rotate(-8)">
+    <rect x="-120" y="-150" width="240" height="300" rx="20" fill="#fffdf9" stroke="#1f5d63" stroke-opacity="0.18" stroke-width="2"/>
+    <rect x="-86" y="-118" width="120" height="16" rx="8" fill="#1f5d63"/>
+    <g fill="#dfe8dc">
+      <circle cx="-78" cy="-66" r="11"/><circle cx="-44" cy="-66" r="11"/><circle cx="-10" cy="-66" r="11"/><circle cx="24" cy="-66" r="11"/>
+      <circle cx="-78" cy="-22" r="11"/><circle cx="-44" cy="-22" r="11"/><circle cx="-10" cy="-22" r="11"/><circle cx="24" cy="-22" r="11"/>
+      <circle cx="-78" cy="22" r="11"/><circle cx="-44" cy="22" r="11"/><circle cx="-10" cy="22" r="11"/><circle cx="24" cy="22" r="11"/>
+      <circle cx="-78" cy="66" r="11"/><circle cx="-44" cy="66" r="11"/><circle cx="-10" cy="66" r="11"/><circle cx="24" cy="66" r="11"/>
+    </g>
+    <circle cx="-44" cy="-66" r="11" fill="#c8a96b"/><circle cx="24" cy="-22" r="11" fill="#c8a96b"/><circle cx="-78" cy="22" r="11" fill="#c8a96b"/><circle cx="-10" cy="66" r="11" fill="#c8a96b"/>
+  </g>
+  <!-- right answer sheet (tilted) -->
+  <g transform="translate(900,330) rotate(8)">
+    <rect x="-120" y="-150" width="240" height="300" rx="20" fill="#fffdf9" stroke="#1f5d63" stroke-opacity="0.18" stroke-width="2"/>
+    <rect x="-34" y="-118" width="120" height="16" rx="8" fill="#1f5d63"/>
+    <g fill="#dfe8dc">
+      <circle cx="-24" cy="-66" r="11"/><circle cx="10" cy="-66" r="11"/><circle cx="44" cy="-66" r="11"/><circle cx="78" cy="-66" r="11"/>
+      <circle cx="-24" cy="-22" r="11"/><circle cx="10" cy="-22" r="11"/><circle cx="44" cy="-22" r="11"/><circle cx="78" cy="-22" r="11"/>
+      <circle cx="-24" cy="22" r="11"/><circle cx="10" cy="22" r="11"/><circle cx="44" cy="22" r="11"/><circle cx="78" cy="22" r="11"/>
+      <circle cx="-24" cy="66" r="11"/><circle cx="10" cy="66" r="11"/><circle cx="44" cy="66" r="11"/><circle cx="78" cy="66" r="11"/>
+    </g>
+    <circle cx="10" cy="-66" r="11" fill="#a7b8a5"/><circle cx="78" cy="-22" r="11" fill="#a7b8a5"/><circle cx="-24" cy="22" r="11" fill="#a7b8a5"/><circle cx="44" cy="66" r="11" fill="#a7b8a5"/>
+  </g>
+  <!-- VS badge -->
+  <g transform="translate(600,330)">
+    <circle cx="0" cy="0" r="62" fill="url(#teal3)"/>
+    <circle cx="0" cy="0" r="62" fill="none" stroke="#c8a96b" stroke-width="4"/>
+    <text x="0" y="20" text-anchor="middle" font-family="Georgia, serif" font-size="56" font-weight="700" fill="#f7f3ee">vs</text>
+  </g>
+</svg>

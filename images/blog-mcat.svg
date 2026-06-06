@@ -1,0 +1,51 @@
+<svg viewBox="0 0 1200 630" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="MCAT study schedule illustration">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f7f3ee"/>
+      <stop offset="1" stop-color="#e7eee6"/>
+    </linearGradient>
+    <linearGradient id="teal" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#1f5d63"/>
+      <stop offset="1" stop-color="#153f44"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <!-- brand molecular motif, faint -->
+  <g opacity="0.10" stroke="#1f5d63" stroke-width="3" fill="none">
+    <circle cx="1040" cy="120" r="7" fill="#1f5d63"/><circle cx="1120" cy="180" r="7" fill="#1f5d63"/>
+    <circle cx="980" cy="210" r="7" fill="#1f5d63"/><circle cx="1080" cy="270" r="7" fill="#1f5d63"/>
+    <line x1="1040" y1="120" x2="1120" y2="180"/><line x1="1040" y1="120" x2="980" y2="210"/>
+    <line x1="980" y1="210" x2="1080" y2="270"/><line x1="1120" y1="180" x2="1080" y2="270"/>
+  </g>
+  <!-- calendar -->
+  <g transform="translate(330,150)">
+    <rect x="0" y="0" width="430" height="330" rx="26" fill="#fffdf9" stroke="#1f5d63" stroke-opacity="0.18" stroke-width="2"/>
+    <rect x="0" y="0" width="430" height="64" rx="26" fill="url(#teal)"/>
+    <rect x="0" y="40" width="430" height="24" fill="url(#teal)"/>
+    <circle cx="70" cy="-8" r="9" fill="#153f44"/><rect x="64" y="-26" width="12" height="26" rx="6" fill="#153f44"/>
+    <circle cx="360" cy="-8" r="9" fill="#153f44"/><rect x="354" y="-26" width="12" height="26" rx="6" fill="#153f44"/>
+    <!-- grid -->
+    <g fill="#dfe8dc">
+      <rect x="34" y="96" width="64" height="44" rx="9"/><rect x="118" y="96" width="64" height="44" rx="9"/><rect x="202" y="96" width="64" height="44" rx="9"/><rect x="286" y="96" width="64" height="44" rx="9"/>
+      <rect x="34" y="156" width="64" height="44" rx="9"/><rect x="118" y="156" width="64" height="44" rx="9"/><rect x="202" y="156" width="64" height="44" rx="9"/><rect x="286" y="156" width="64" height="44" rx="9"/>
+      <rect x="34" y="216" width="64" height="44" rx="9"/><rect x="118" y="216" width="64" height="44" rx="9"/><rect x="202" y="216" width="64" height="44" rx="9"/><rect x="286" y="216" width="64" height="44" rx="9"/>
+    </g>
+    <!-- highlighted high-yield days -->
+    <rect x="118" y="96" width="64" height="44" rx="9" fill="#c8a96b"/>
+    <rect x="286" y="156" width="64" height="44" rx="9" fill="#a7b8a5"/>
+    <rect x="34" y="216" width="64" height="44" rx="9" fill="#a7b8a5"/>
+  </g>
+  <!-- clock badge (timing) -->
+  <g transform="translate(690,360)">
+    <circle cx="0" cy="0" r="86" fill="#fffdf9" stroke="#1f5d63" stroke-opacity="0.18" stroke-width="2"/>
+    <circle cx="0" cy="0" r="86" fill="none" stroke="#c8a96b" stroke-width="10" stroke-linecap="round" stroke-dasharray="405 540" transform="rotate(-90)"/>
+    <line x1="0" y1="0" x2="0" y2="-48" stroke="#153f44" stroke-width="9" stroke-linecap="round"/>
+    <line x1="0" y1="0" x2="34" y2="14" stroke="#1f5d63" stroke-width="9" stroke-linecap="round"/>
+    <circle cx="0" cy="0" r="8" fill="#153f44"/>
+  </g>
+  <!-- checkmark badge -->
+  <g transform="translate(470,455)">
+    <circle cx="0" cy="0" r="46" fill="url(#teal)"/>
+    <path d="M -20 2 L -6 18 L 22 -16" fill="none" stroke="#f7f3ee" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+</svg>
