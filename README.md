@@ -1,5 +1,7 @@
 # STEM by Sophia Website
 
+
+
 Static multi-page website for **stembysophia.com** (served via GitHub Pages).
 Tagline: *Confidence. Clarity. Advancement.*
 
